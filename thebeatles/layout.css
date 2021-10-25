@@ -108,3 +108,34 @@ button:hover span{
 buttom:hover{
 	border: none;
 }
+
+.sub-menu-1{
+	display: none;
+	 
+}
+
+.navbar ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	background: transparent;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+
+.navbar ul li:hover .sub-menu-1 ul{
+	display: block;
+	margin: 10px;
+}
+
+.navbar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	border-radius: 0;
+	background: transparent;
+	text-align: left;
+}
+
+.navbar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none; 
+}
